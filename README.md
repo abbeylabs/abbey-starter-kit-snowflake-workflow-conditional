@@ -5,11 +5,6 @@ The example features requesting access to a [Snowflake Role Grant](https://regis
 in a single step, where anyone that's on-call should get auto-approved access, otherwise,
 access must be approved by one reviewer.
 
-## Prerequisites
-
-1. Abbey Labs Account - [Sign up for the waitlist](https://abbey.so/sign-up).
-2. Snowflake Account
-
 ## Usage
 
 Visit this [Starter Kit's docs](https://docs.abbey.so/tutorials/grant-workflows/conditional-grant-workflows) for a short usage walkthrough.
