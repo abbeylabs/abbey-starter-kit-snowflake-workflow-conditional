@@ -1,9 +1,9 @@
 # Abbey Starter Kit Workflow Conditional Example
 
-This example shows how to create a conditional Grant Kit workflow.
-The example features requesting access to a [Snowflake Role Grant](https://registry.terraform.io/providers/Snowflake-Labs/snowflake/latest/docs/resources/role_grants) 
-in two sequential steps, with the first step requiring all reviewers to approve access and 
-the second step requiring just one reviewer to approve access.
+This example shows how to create a Grant Kit workflow.
+The example features requesting access to a [Snowflake Role Grant](https://registry.terraform.io/providers/Snowflake-Labs/snowflake/latest/docs/resources/role_grants)
+in a single step, where anyone that's on-call should get auto-approved access, otherwise,
+access must be approved by one reviewer.
 
 ## Prerequisites
 
